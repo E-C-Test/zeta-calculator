@@ -6,6 +6,12 @@
 
         public void Init(int existingProjects) => _existingProjects = existingProjects;
 
+        public void Addprojekt(int newProject)
+        {
+            _existingProjects += newProject;
+            /// UDA Änderung!
+        }
+
         public void Sub(int otherProjects)
         {
             _existingProjects -= otherProjects;
