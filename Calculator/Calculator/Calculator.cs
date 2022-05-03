@@ -16,5 +16,9 @@
         {
             _existingProjects -= otherProjects;
         }
+        public void Buzo(int myprojects)
+        {
+            _existingProjects *= myprojects;
+        }
     }
 }
