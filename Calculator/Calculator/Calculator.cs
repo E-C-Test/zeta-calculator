@@ -11,5 +11,10 @@
             _existingProjects += newProject;
             /// UDA Änderung!
         }
+
+        public void Sub(int otherProjects)
+        {
+            _existingProjects -= otherProjects;
+        }
     }
 }
