@@ -20,5 +20,9 @@
         {
             _existingProjects *= myprojects;
         }
+        public void Herbert()
+        {
+            /// Test Neu
+        }
     }
 }
